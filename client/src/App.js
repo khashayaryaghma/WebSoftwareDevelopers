@@ -10,7 +10,7 @@ function App() {
   return (
       <div className="App">
           <Router>
-            <Header bgColor="purple" imgSrc={logo}/>
+            <Header bgColor="purple" imgSrc={logo} pd="0.5rem"/>
               <Routes>
                   <Route path="/" element={<Home/>}/>
                   <Route path="contact" element={<Contact/>}/>
