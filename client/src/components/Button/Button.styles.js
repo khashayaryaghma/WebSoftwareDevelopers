@@ -7,4 +7,5 @@ export const StyledButton = styled.button.attrs(() => ({
     background-color: ${(props) => props.bgColor};
     font-size: ${(props) => props.fSize};
     border: ${(props) => props.border || "none"};
+    cursor: ${(props) => props.cursor || "pointer"};
 `;
