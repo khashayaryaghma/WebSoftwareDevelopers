@@ -13,7 +13,11 @@ function NavBar({ bgColor, navItems, activeStyle }) {
                                 style={({ isActive }) =>
                                     isActive
                                         ? activeStyle
-                                        : { color: "white", fontSize: "1.5rem" }
+                                        : {
+                                              color: "white",
+                                              fontSize: "1.5rem",
+                                              padding: "0 1rem",
+                                          }
                                 }
                             >
                                 {item.name}
