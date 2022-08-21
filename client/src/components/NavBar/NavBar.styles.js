@@ -9,5 +9,5 @@ export const StyledNav = styled.nav`
 export const StyledUl = styled.ul`
     list-style: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 `;
