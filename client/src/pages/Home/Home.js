@@ -1,9 +1,11 @@
-
+import FirstSection from "../../components/FirstSection/FirstSection";
 
 function Home() {
-  return (
-    <div>Home</div>
-  )
+    return (
+        <main>
+            <FirstSection bgColor="purple" />
+        </main>
+    );
 }
 
-export default Home
+export default Home;
