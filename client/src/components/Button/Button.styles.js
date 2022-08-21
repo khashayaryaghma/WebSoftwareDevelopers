@@ -8,4 +8,6 @@ export const StyledButton = styled.button.attrs(() => ({
     font-size: ${(props) => props.fSize};
     border: ${(props) => props.border || "none"};
     cursor: ${(props) => props.cursor || "pointer"};
+    border-radius: ${(props) => props.brRadius};
+    padding: ${(props)=>props.pd};
 `;
