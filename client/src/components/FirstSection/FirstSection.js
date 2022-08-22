@@ -7,13 +7,13 @@ function FirstSection({ bgColor }) {
     return (
         <StyledFSection bgColor={bgColor}>
             <StyledArticle>
-                <h1 style={{ fontSize: "55px" }}>Web Software Developers</h1>
-                <p style={{ fontSize: "22px" }}>
+                <h1 className="heading">Web Software Developers</h1>
+                <p className="para">
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco
                     laboris nisi ut aliquip ex ea commodo consequat. Duis aute
                     irure dolor in reprehenderit in voluptate velit esse cillum
                 </p>
-                <p style={{ fontSize: "22px" }}>
+                <p className="para">
                     Image from
                     <a
                         href="https://www.freepik.com/vectors/computer"
