@@ -11,4 +11,10 @@ export const GlobalStyles = createGlobalStyle`
   a{
     text-decoration: none;
   }
+  .heading{
+    font-size: 55px;
+  }
+  .para{
+    font-size: 22px;
+  }
 `;
