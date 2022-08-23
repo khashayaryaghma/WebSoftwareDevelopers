@@ -2,9 +2,11 @@ import styled from "styled-components";
 
 export const StyledFourthSection = styled.section`
     display: flex;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    padding-bottom: 3rem;
+    padding-top: 1rem;
 `;
 export const StyledSecondArticle = styled.article`
     margin: 2rem;
