@@ -3,6 +3,8 @@ import {
     StyledSecondArticle,
 } from "./FourthSection.styles";
 import Button from "../Button/Button";
+import Image from "../Image/Image";
+import fourthImage from "../../assets/images/fourthSection.jpg";
 
 function FourthSection() {
     return (
@@ -33,6 +35,7 @@ function FourthSection() {
                     R E A D M O R E
                 </Button>
             </StyledSecondArticle>
+            <Image imgSrc={fourthImage} size="43vmax" />
         </StyledFourthSection>
     );
 }
