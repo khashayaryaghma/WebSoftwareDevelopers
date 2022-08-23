@@ -6,10 +6,12 @@ import {
 } from "./SecondSection.styles";
 import secondSectionImage from "../../assets/images/secondSection.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCode } from "@fortawesome/free-solid-svg-icons";
-import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
-import { faPalette } from "@fortawesome/free-solid-svg-icons";
-import { faLaptop } from "@fortawesome/free-solid-svg-icons";
+import {
+    faCode,
+    faBriefcase,
+    faPalette,
+    faLaptop,
+} from "@fortawesome/free-solid-svg-icons";
 
 function SecondSection() {
     return (
