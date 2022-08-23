@@ -7,6 +7,7 @@ export const StyledThirdSection = styled.section`
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding-bottom:2rem ;
 `;
 
 export const StyledOl = styled.ol`
