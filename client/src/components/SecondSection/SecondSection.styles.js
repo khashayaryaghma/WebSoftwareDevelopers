@@ -6,6 +6,9 @@ export const StyledSecondSection = styled.section`
     align-items: center;
     justify-content: space-evenly;
     min-height: 53rem;
+    @media (max-width: 1000px) {
+        min-height: 42rem;
+    }
     padding: 1rem;
 `;
 
