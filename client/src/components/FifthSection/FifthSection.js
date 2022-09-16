@@ -20,25 +20,25 @@ function FifthSection({ bgColor }) {
                     <StyledDiv>
                         <FontAwesomeIcon icon={faComputer} />
                     </StyledDiv>
-                    <p className="para">DEVELOPMENT</p>
+                    <p style={{ fontSize: "1.2vmax" }}>DEVELOPMENT</p>
                 </StyledBox>
                 <StyledBox>
                     <StyledDiv>
                         <FontAwesomeIcon icon={faGlobe} />
                     </StyledDiv>
-                    <p className="para">5G NETWORK</p>
+                    <p style={{ fontSize: "1.2vmax" }}>5G NETWORK</p>
                 </StyledBox>
                 <StyledBox>
                     <StyledDiv>
                         <FontAwesomeIcon icon={faRobot} />
                     </StyledDiv>
-                    <p className="para">AI PRODUCTS</p>
+                    <p style={{ fontSize: "1.2vmax" }}>AI PRODUCTS</p>
                 </StyledBox>
                 <StyledBox>
                     <StyledDiv>
                         <FontAwesomeIcon icon={faWrench} />
                     </StyledDiv>
-                    <p className="para">AUTOMATION</p>
+                    <p style={{ fontSize: "1.2vmax" }}>AUTOMATION</p>
                 </StyledBox>
             </GridContainer>
         </StyledFifthSection>

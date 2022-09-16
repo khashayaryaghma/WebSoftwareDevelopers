@@ -13,8 +13,8 @@ export const GridContainer = styled.section`
 `;
 export const StyledBox = styled.div`
     background-color: white;
-    width: 10rem;
-    height: 10rem;
+    width: 12vmax;
+    height: 8vmax;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -22,9 +22,9 @@ export const StyledBox = styled.div`
 `;
 
 export const StyledDiv = styled.div`
-    font-size: 2rem;
+    font-size: 1.5vmax;
     border-radius: 50%;
-    margin-bottom: 1rem;
+    margin-bottom: 1vmax;
     padding: 0.5rem;
     background-color: #29b7dd;
     color: white;
