@@ -18,6 +18,7 @@ export const StyledContainer = styled.section`
     grid-template-columns: 2fr 1fr 1fr;
     @media (max-width: 560px) {
         grid-template-columns: 2fr 1fr;
+        grid-gap: 5px;
     }
 `;
 
@@ -39,6 +40,6 @@ export const StyledImageBox = styled.div`
     background: url(${(props) => props.bg});
     background-size: cover;
     background-position: center;
-    min-width: 31vmax;
+    min-width: 25vmax;
     min-height: 28vmax;
 `;
