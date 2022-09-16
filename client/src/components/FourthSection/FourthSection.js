@@ -29,10 +29,10 @@ function FourthSection() {
                     bgColor="#29B7DD"
                     color="white"
                     brRadius="30px"
-                    pd="0.5rem 3.2rem"
+                    pd="0.5rem 3.5rem"
                     fSize="1.5rem"
                 >
-                    R E A D M O R E
+                    L E A R N M O R E
                 </Button>
             </StyledSecondArticle>
             <Image imgSrc={fourthImage} size="43vmax" />

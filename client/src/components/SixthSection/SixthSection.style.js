@@ -12,10 +12,10 @@ export const StyledSixthSection = styled.section`
 export const StyledSixthArticle = styled.article`
     margin: 2rem;
     width: 17rem;
-    min-height: 25rem;
+    min-height: 23rem;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    justify-content: space-evenly;
+    justify-content: space-around;
     text-align: right;
 `;
