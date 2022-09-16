@@ -12,7 +12,7 @@ function ThirdSection({ bgColor }) {
     return (
         <StyledThirdSection bgColor={bgColor}>
             <FStyledDiv>
-                <h2 style={{ fontSize: "4.5rem", marginLeft: "1rem", marginRight: "1rem" }}>Data Visualization</h2>
+                <h2 style={{ fontSize: "4.1rem", marginLeft: "1rem", marginRight: "1rem" }}>Data Visualization</h2>
                 <Image imgSrc={thirdSectionImage} size="38vmax" />
                 <p className="para">
                     Image from

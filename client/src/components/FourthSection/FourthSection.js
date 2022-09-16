@@ -29,8 +29,8 @@ function FourthSection() {
                     bgColor="#29B7DD"
                     color="white"
                     brRadius="30px"
-                    pd="0.5rem 3.5rem"
-                    fSize="1.5rem"
+                    pd="0.5rem 3.2rem"
+                    fSize="1.2rem"
                 >
                     L E A R N M O R E
                 </Button>
