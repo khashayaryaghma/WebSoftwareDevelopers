@@ -6,7 +6,7 @@ function SeventhSection({ bgColor }) {
   return (
     <StyledSeventhSection bgColor={bgColor}>
       <StyledArticle>
-        <h1 className="heading">Web Analytics</h1>
+        <h2 className="heading">Web Analytics</h2>
         <p className="para">
           <em>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore</em>
         </p>

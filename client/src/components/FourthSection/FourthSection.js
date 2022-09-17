@@ -10,9 +10,9 @@ function FourthSection() {
     return (
         <StyledFourthSection>
             <StyledSecondArticle>
-                <h1 className="heading" style={{ color: "#29B7DD" }}>
+                <h2 className="heading" style={{ color: "#29B7DD" }}>
                     IT solutions
-                </h1>
+                </h2>
                 <p className="para">
                     We collaborate with you to create new value through digital
                     transformation. We have hundreds of specialists at your
