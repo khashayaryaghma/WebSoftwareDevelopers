@@ -12,7 +12,7 @@ function Footer({ bgColor }) {
                 <div>
                     <FontAwesomeIcon icon={faLocationDot} />
                     <StyledH3>OUR MAIN OFFICE</StyledH3>
-                    <StyledPara>SoHo 9 NewYork, NY 1001</StyledPara>
+                    <StyledPara>SoHo 9 NewYork, NY01</StyledPara>
                 </div>
                 <div>
                     <FontAwesomeIcon icon={faPhone} />
@@ -22,7 +22,7 @@ function Footer({ bgColor }) {
                 <div>
                     <FontAwesomeIcon icon={faEnvelope} />
                     <StyledH3>EMAIL</StyledH3>
-                    <StyledPara><a href="mailto:khashayaryaghma@gmail.com" style={{ color: "#3C065E" }}>khashayaryaghma@gmail.com</a></StyledPara>
+                    <StyledPara><a href="mailto:khashayaryaghma@gmail.com" style={{ color: "#3C065E" }}>hello@theme.com</a></StyledPara>
                 </div>
             </StyledContactUs>
             <StyledArticle>
