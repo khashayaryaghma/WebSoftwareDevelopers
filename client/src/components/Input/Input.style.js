@@ -5,9 +5,7 @@ export const StyledInput = styled.input`
     background-color: transparent;
     border: none;
     font-size: 1.5rem;
-    width: 16rem;
     padding: 10px;
-    margin-right: 2rem;
     margin-bottom: 2rem;
     border-bottom: 2px white solid;
     color: white;
@@ -19,4 +17,5 @@ export const StyledInput = styled.input`
 export const StyledLabel = styled.label`
     font-size: 1.5rem;
     display: block;
+    margin-right: 1.5rem;
 `
