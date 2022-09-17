@@ -27,7 +27,7 @@ export const StyledIconContainer = styled.div`
     display: flex;
     font-size: 2rem;
     & > * {
-    margin-right: 1rem;
+    margin-right: 1.75rem;
   }
 `
 
@@ -51,7 +51,7 @@ export const StyledContactUs = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 7vmin;
+    font-size: 6vmin;
     color: #3C065E;
     & > * {
       margin: 1vmin;  

@@ -1,6 +1,7 @@
 import { StyledArticle, StyledContactUs, StyledDiv, StyledFooter, StyledForm, StyledH3, StyledIconContainer, StyledPara, StyledTextArea } from "./Footer.style"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGuitar } from "@fortawesome/free-solid-svg-icons";
+import { faLocationDot, faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faFacebookF, faTwitter, faInstagram, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import Input from "../Input/Input";
 import Button from "../Button/Button";
 
@@ -9,17 +10,17 @@ function Footer({ bgColor }) {
         <StyledFooter bgColor={bgColor}>
             <StyledContactUs>
                 <div>
-                    <FontAwesomeIcon icon={faGuitar} />
+                    <FontAwesomeIcon icon={faLocationDot} />
                     <StyledH3>OUR MAIN OFFICE</StyledH3>
                     <StyledPara>SoHo 9 NewYork, NY 1001</StyledPara>
                 </div>
                 <div>
-                    <FontAwesomeIcon icon={faGuitar} />
+                    <FontAwesomeIcon icon={faPhone} />
                     <StyledH3>PHONE NUMBER</StyledH3>
                     <StyledPara>234-9876-5400</StyledPara>
                 </div>
                 <div>
-                    <FontAwesomeIcon icon={faGuitar} />
+                    <FontAwesomeIcon icon={faEnvelope} />
                     <StyledH3>EMAIL</StyledH3>
                     <StyledPara><a href="mailto:khashayaryaghma@gmail.com" style={{ color: "#3C065E" }}>khashayaryaghma@gmail.com</a></StyledPara>
                 </div>
@@ -31,10 +32,10 @@ function Footer({ bgColor }) {
                 <p className="para"><strong><em>We can ensure reliability, low cost fares and most important, with safety and comfort in mind.</em></strong></p>
                 <p className="para">Etiam sit amet convallis erat – class aptent taciti sociosqu ad litora torquent per conubia! Maecenas gravida lacus. Lorem etiam sit amet convallis erat.</p>
                 <StyledIconContainer>
-                    <FontAwesomeIcon icon={faGuitar} />
-                    <FontAwesomeIcon icon={faGuitar} />
-                    <FontAwesomeIcon icon={faGuitar} />
-                    <FontAwesomeIcon icon={faGuitar} />
+                    <FontAwesomeIcon icon={faFacebookF} />
+                    <FontAwesomeIcon icon={faTwitter} />
+                    <FontAwesomeIcon icon={faInstagram} />
+                    <FontAwesomeIcon icon={faLinkedinIn} />
                 </StyledIconContainer>
             </StyledArticle>
             <StyledForm>
