@@ -7,6 +7,7 @@ import Header from "./components/Header/Header";
 import logo from "./assets/images/logo.png";
 import NavBar from "./components/NavBar/NavBar";
 import { navItems, activeStyle } from "./constants/navItems";
+import Footer from "./components/Footer/Footer";
 
 function App() {
     return (
@@ -24,6 +25,7 @@ function App() {
                     <Route path="about" element={<About />} />
                     <Route path="*" element={<NotFound />} />
                 </Routes>
+                <Footer bgColor="purple" />
             </Router>
         </div>
     );
