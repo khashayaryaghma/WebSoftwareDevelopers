@@ -64,5 +64,5 @@ export const StyledH3 = styled.h3`
 `
 
 export const StyledPara = styled.p`
-  font-size: 2vmin;
+  font-size: 2.2vmin;
 `

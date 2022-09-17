@@ -9,7 +9,7 @@ function Footer({ bgColor }) {
                 <div>
                     <FontAwesomeIcon icon={faGuitar} />
                     <StyledH3>OUR MAIN OFFICE</StyledH3>
-                    <StyledPara>SoHo 94 New York, NY 1001</StyledPara>
+                    <StyledPara>SoHo 9 NewYork, NY 1001</StyledPara>
                 </div>
                 <div>
                     <FontAwesomeIcon icon={faGuitar} />
