@@ -46,7 +46,6 @@ export const FStyledDiv = styled.div`
     margin: 1rem;
     @media (max-width: 1055px) {
        align-items: center;
-       /* text-align: center; */
        min-height: 30rem;
     }
 `;
