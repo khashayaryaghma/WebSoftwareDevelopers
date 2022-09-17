@@ -5,6 +5,7 @@ import ThirdSection from "../../components/ThirdSection/ThirdSection";
 import FifthSection from "../../components/FifthSection/FifthSection";
 import SixthSection from "../../components/SixthSection/SixthSection";
 import SeventhSection from "../../components/SeventhSection/SeventhSection";
+import EighthSection from "../../components/EighthSection/EighthSection";
 
 function Home() {
     return (
@@ -16,6 +17,7 @@ function Home() {
             <FifthSection bgColor="purple" />
             <SixthSection />
             <SeventhSection bgColor="purple" />
+            <EighthSection />
         </main>
     );
 }
