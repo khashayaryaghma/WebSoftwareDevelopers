@@ -6,7 +6,7 @@ export const StyledEighthSection = styled.section`
     justify-content: center;
     align-items: flex-start;
     padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-bottom: 8rem;
 `
 
 export const StyledH2 = styled.h2`
