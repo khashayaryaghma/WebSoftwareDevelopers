@@ -1,6 +1,5 @@
 import { StyledSeventhSection, StyledArticle } from "./SeventhSection.style"
 import Button from "../Button/Button";
-import Image from "../Image/Image";
 
 function SeventhSection({ bgColor }) {
   return (
