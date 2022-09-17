@@ -6,7 +6,7 @@ export const StyledSeventhSection = styled.section`
 `
 
 export const StyledArticle = styled.article`
-    width: 28rem;
+    max-width: 28rem;
     min-height:26rem ;
     padding: 3rem;
     background-color: white;
@@ -14,4 +14,7 @@ export const StyledArticle = styled.article`
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-around;
+    & > * {
+    margin: 1rem;
+  }
 `;

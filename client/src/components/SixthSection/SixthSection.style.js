@@ -11,11 +11,14 @@ export const StyledSixthSection = styled.section`
 
 export const StyledSixthArticle = styled.article`
     margin: 2rem;
-    width: 17rem;
-    min-height: 23rem;
+    width: 19rem;
+    min-height: 25rem;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    justify-content: space-around;
+    justify-content: space-evenly;
     text-align: right;
+    & > * {
+    margin: 1rem;
+  }
 `;

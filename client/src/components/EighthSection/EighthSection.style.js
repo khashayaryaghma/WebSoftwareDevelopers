@@ -34,4 +34,7 @@ export const StyledArticle = styled.article`
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
+    & > * {
+    margin: 1rem;
+  }
 `
