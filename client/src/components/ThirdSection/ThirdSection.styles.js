@@ -33,6 +33,7 @@ export const StyledLi = styled.li`
 export const StyledDiv = styled.div`
     display: flex;
     flex-direction: column;
+    margin: 1rem;
     justify-content: space-around;
     min-height: 13rem;
     width: 16rem;
