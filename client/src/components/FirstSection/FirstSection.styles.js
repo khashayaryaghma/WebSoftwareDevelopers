@@ -12,10 +12,13 @@ export const StyledFSection = styled.section`
 
 export const StyledArticle = styled.article`
     margin: 2rem;
-    width: 25rem;
+    width: 27rem;
     min-height:28rem ;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-around;
+    & > * {
+    margin: 1rem;
+  }
 `;
