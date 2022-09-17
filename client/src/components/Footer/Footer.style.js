@@ -10,7 +10,7 @@ export const StyledFooter = styled.footer`
         align-items: center;
         position: relative;
         padding-top: 8rem;
-        padding-bottom: 4rem;
+        padding-bottom: 6rem;
 `
 
 export const StyledArticle = styled.article`
