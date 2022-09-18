@@ -7,6 +7,7 @@ export const StyledSixthSection = styled.section`
     justify-content: center;
     min-height: 38rem;
     padding-top: 1rem;
+    padding-bottom: 3vmax;
 `
 
 export const StyledSixthArticle = styled.article`
