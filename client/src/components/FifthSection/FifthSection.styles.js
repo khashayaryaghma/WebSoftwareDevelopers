@@ -17,7 +17,7 @@ export const GridContainer = styled.section`
     grid-gap: 1.2vmax;
     position: absolute;
     bottom: -5vmax;
-    right: -5vmax;
+    right: -3vmax;
     @media (max-width: 450px) {
         right: -1vmax;
     }
@@ -50,8 +50,8 @@ export const StyledBBgImage = styled.div`
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: -2vmax;
-    right: -4vmax;
+    top: -1.5vmax;
+    right: -2vmax;
     z-index: -1;
     @media (max-width: 450px) {
         right: -2vmax;

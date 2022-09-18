@@ -13,8 +13,8 @@ function FifthSection({ bgColor }) {
             <StyledBgImage>
                 <Image imgSrc={fifthImage} size="45vmax"/>
                 <StyledBBgImage>
-                <Image imgSrc={sbg} size="26vmax"/>
-                <Image imgSrc={sbg} size="26vmax"/>
+                <Image imgSrc={sbg} size="27vmax"/>
+                <Image imgSrc={sbg} size="27vmax"/>
                 </StyledBBgImage>
             <GridContainer>
                 <StyledBox>
