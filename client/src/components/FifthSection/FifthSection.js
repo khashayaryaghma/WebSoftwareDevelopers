@@ -4,7 +4,7 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faComputer, faGlobe, faRobot, faWrench } from "@fortawesome/free-solid-svg-icons";
 import Image from "../Image/Image";
-import fifthImage from "../../assets/images/fifthSection.jpg"
+import fifthImage from "../../assets/images/fifthSectionImage.jpg"
 import sbg from "../../assets/images/sbg.png"
 
 function FifthSection({ bgColor }) {
