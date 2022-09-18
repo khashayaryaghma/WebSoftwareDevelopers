@@ -4,14 +4,14 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faComputer, faGlobe, faRobot, faWrench } from "@fortawesome/free-solid-svg-icons";
 import Image from "../Image/Image";
-import fifthSectionImage from "../../assets/images/fifthSection.jpg"
+import fifthImage from "../../assets/images/fifthSection.jpg"
 import sbg from "../../assets/images/sbg.png"
 
 function FifthSection({ bgColor }) {
     return (
         <StyledFifthSection bgColor={bgColor}>
             <StyledBgImage>
-                <Image imgSrc={fifthSectionImage} size="49vmax"/>
+                <Image imgSrc={fifthImage} size="49vmax"/>
                 <StyledBBgImage>
                 <Image imgSrc={sbg} size="26vmax"/>
                 <Image imgSrc={sbg} size="26vmax"/>
