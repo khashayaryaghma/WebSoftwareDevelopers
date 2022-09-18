@@ -11,7 +11,7 @@ function FifthSection({ bgColor }) {
     return (
         <StyledFifthSection bgColor={bgColor}>
             <StyledBgImage>
-                <Image imgSrc={fifthImage} size="49vmax"/>
+                <Image imgSrc={fifthImage} size="45vmax"/>
                 <StyledBBgImage>
                 <Image imgSrc={sbg} size="26vmax"/>
                 <Image imgSrc={sbg} size="26vmax"/>
