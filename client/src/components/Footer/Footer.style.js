@@ -9,7 +9,7 @@ export const StyledFooter = styled.footer`
         justify-content: center;
         align-items: center;
         position: relative;
-        padding-top: 8rem;
+        padding-top: 8vmax;
         padding-bottom: 6rem;
 `
 
