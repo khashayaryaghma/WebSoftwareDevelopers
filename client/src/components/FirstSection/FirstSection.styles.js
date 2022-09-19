@@ -8,6 +8,7 @@ export const StyledFSection = styled.section`
     flex-wrap: wrap-reverse;
     align-items: center;
     justify-content: center;
+    padding-bottom: 2rem;
 `;
 
 export const StyledArticle = styled.article`
