@@ -10,7 +10,7 @@ function NavBar({ navItems }) {
                         <li key={item.id}>
                             <NavLink to={item.route} >
                                 {
-                                item.name === "Login" ? item.name + " " : ""
+                                item.name === "Login" ? <span style={{fontSize:"1.3rem"}}>{item.name} </span> : ""
                                 }
                                 {item.icon}
                             </NavLink>
