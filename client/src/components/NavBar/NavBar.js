@@ -1,33 +1,24 @@
 import { NavLink } from "react-router-dom";
-import { StyledNav, StyledUl } from "./NavBar.styles";
-import { v4 as uuidv4 } from "uuid";
+import { StyledUl } from "./NavBar.styles";
 
-function NavBar({ bgColor, navItems, activeStyle }) {
+function NavBar({ navItems }) {
     return (
-        <StyledNav bgColor={bgColor}>
+        <nav>
             <StyledUl>
                 {navItems.map((item) => {
                     return (
-                        <li key={uuidv4()}>
-                            <NavLink
-                                to={item.route}
-                                style={({ isActive }) =>
-                                    isActive
-                                        ? activeStyle
-                                        : {
-                                              color: "white",
-                                              fontSize: "1.5rem",
-                                              padding: "0 1rem",
-                                          }
+                        <li key={item.id}>
+                            <NavLink to={item.route} >
+                                {
+                                item.name === "Login" ? item.name + " " : ""
                                 }
-                            >
-                                {item.name}
+                                {item.icon}
                             </NavLink>
                         </li>
                     );
                 })}
             </StyledUl>
-        </StyledNav>
+        </nav>
     );
 }
 
