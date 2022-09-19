@@ -38,10 +38,10 @@ export const StyledBBg = styled.div`
   position: absolute;
   z-index: -2;
   background-color: #5D3BE7;
-  width: 37vmax;
-  height: 26vmax;
-  bottom: -2.75vmax;
-  right: -2.75vmax;
+  width: 35vmax;
+  height: 24vmax;
+  bottom: -2vmax;
+  right: -1.75vmax;
 `
 
 export const StyledContainerArticle = styled.div`

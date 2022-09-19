@@ -38,7 +38,7 @@ function SeventhSection({ bgColor }) {
         </StyledArticle>
       </StyledContainerArticle>
       <StyledContainerImage>
-        <Image imgSrc={seventhImage} size="37vmax" />
+        <Image imgSrc={seventhImage} size="35vmax" />
         <StyledBBg />
       </StyledContainerImage>
     </StyledSeventhSection>
