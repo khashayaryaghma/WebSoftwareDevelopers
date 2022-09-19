@@ -53,7 +53,4 @@ export const StyledBBgImage = styled.div`
     top: -1.5vmax;
     right: -2vmax;
     z-index: -1;
-    @media (max-width: 450px) {
-        right: -2vmax;
-    }
 `
