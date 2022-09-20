@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
 export const StyledLogin = styled.section`
-    min-height: 53rem;
-    padding-bottom: 5vmax;
+    height: 53rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,7 +10,7 @@ export const StyledLogin = styled.section`
 export const StyledForm = styled.form`
     position: absolute;
     z-index: 10;
-    background-color: rgba(60, 6, 94, 0.85);
+    background-color: rgba(60, 6, 94, 0.55);
     border: 1px solid rgba(255, 255, 255, 0.1);
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(15px);
