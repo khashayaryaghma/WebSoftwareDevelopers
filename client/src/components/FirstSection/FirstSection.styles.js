@@ -9,6 +9,7 @@ export const StyledFSection = styled.section`
     align-items: center;
     justify-content: center;
     padding-bottom: 2rem;
+    padding-top: 5rem;
 `;
 
 export const StyledArticle = styled.article`

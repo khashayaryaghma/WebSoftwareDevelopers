@@ -1,13 +1,14 @@
 import styled from "styled-components";
 
 export const StyledLogin = styled.section`
-    height: 53rem;
+    height: 60rem;
     display: flex;
     justify-content: center;
     align-items: center;
 `
 
 export const StyledForm = styled.form`
+    user-select: none;
     position: absolute;
     z-index: 10;
     background-color: rgba(60, 6, 94, 0.55);
