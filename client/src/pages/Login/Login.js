@@ -1,9 +1,12 @@
 import { StyledForm, StyledH1, StyledLogin } from "./Login.styles"
 import Input from "../../components/Input/Input"
-import Button from "../../components/Button/Button" 
+import Button from "../../components/Button/Button"
+import AnimationBackground from "../../components/AnimationBackground/AnimationBackground"
+
 function Login() {
   return (
     <StyledLogin>
+      <AnimationBackground />
       <StyledForm>
         <StyledH1>Login</StyledH1>
         <Input label="Username" type="text"/>
