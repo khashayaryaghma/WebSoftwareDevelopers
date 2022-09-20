@@ -35,7 +35,7 @@ export const StyledContactUs = styled.div`
     display: flex;
     justify-content: space-evenly;
     position: absolute;
-    z-index: 1;
+    z-index: 11;
     top: -7rem;
     width: 100%;
     @media (max-width: 1500px) {
