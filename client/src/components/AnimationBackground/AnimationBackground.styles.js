@@ -52,7 +52,7 @@ export const StyledRow = styled.div`
     display: flex;
     padding: 10px 0;
     white-space: nowrap;
-    font-size: 64px;
+    font-size: 70px;
     transform: rotate(-30deg);
     &:nth-child(even) div{
         animation: ${animate3} 80s linear infinite;

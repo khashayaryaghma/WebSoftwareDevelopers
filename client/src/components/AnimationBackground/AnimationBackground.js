@@ -5,7 +5,7 @@ import { faBomb, faHeart, faCar, faMugHot, faGift, faRocket, faGhost, faPlane, f
 function AnimationBackground() {
     return (
         <StyledBgContainer>
-            {Array(22).fill("1").map(()=>(
+            {Array(20).fill("1").map(()=>(
                 <StyledRow>
                     {Array(2).fill(2).map(()=>(
                         <div>
